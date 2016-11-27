@@ -8,6 +8,8 @@ main {
   height: 100%;
 }
 
+
+
 h1 {
   font-family: 'Amatica SC', cursive;
 }
@@ -66,11 +68,12 @@ h1 {
   transition: all 0.2s ease-in;
   background: black;
 }
-/*// Portfolio*/
+/* Portfolio */
 
 .thumbnail {
   cursor: pointer;
   position: relative;
+
 }
 
 .thumbnail-overlay {
@@ -90,7 +93,7 @@ h1 {
 }
 
 
-/*// Projects Pages*/
+/* Project Pages */
 
 .full-screen {
   background: #eee;
@@ -100,7 +103,7 @@ h1 {
   top: 0;
   left: 0;
   display: none;
-/*  // Avoids leaving portfolio screen stuck up*/
+/*Avoids leaving portfolio screen stuck up*/
   overflow-y: scroll;
 }
 
@@ -124,3 +127,6 @@ h1 {
   letter-spacing: 30px;
   text-indent: 30px;
 }
+
+
+

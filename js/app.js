@@ -16,7 +16,6 @@ $('a[href^="#"]').on("click",function (e) {
   });
 
 // Change background of nav bar on scroll
-$("#home").addClass("animated bounce");
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll > window.innerHeight - 55) {
