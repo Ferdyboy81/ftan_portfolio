@@ -30,7 +30,7 @@ h1 {
 
 .center {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -69,6 +69,7 @@ h1 {
   background: black;
 }
 /* Portfolio */
+
 
 .thumbnail {
   cursor: pointer;
