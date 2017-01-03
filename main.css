@@ -1,14 +1,12 @@
 $primary-color: #34495e;
 $primary-color-shadow: #2c3e50;
 $secondary-color: #1abc9c;
-
 html,
 body,
 main {
   height: 100%;
+  text-align: center;
 }
-
-
 
 h1 {
   font-family: 'Amatica SC', cursive;
@@ -19,13 +17,11 @@ h1 {
   color: #fff;
 }
 
-
-
 .jumbotron {
- /* // Stops gaps between jumbotrons*/
+  /* // Stops gaps between jumbotrons*/
   padding-top: 150px;
   padding-bottom: 150px;
-  margin-bottom: -60;
+  margin-bottom: 0;
 }
 
 .center {
@@ -39,8 +35,17 @@ h1 {
   background: #34495e url(http://a1.files.theultralinx.com/image/upload/MTI5MDI0MjYwNTI1MTQwNjEx.gif) no-repeat center center / cover fixed;
   height: 700px;
   position: relative;
+  margin-bottom: 0;
 }
 
+@media screen and (max-width: 9999999px) {
+  .photo-cover {
+    background: #34495e url(http://a1.files.theultralinx.com/image/upload/MTI5MDI0MjYwNTI1MTQwNjEx.gif) no-repeat center center / cover fixed;
+    height: 1000px;
+    position: relative;
+    margin-bottom: 0;
+  }
+}
 
 .background-primary {
   background: #4B657D;
@@ -58,6 +63,7 @@ h1 {
   font-size: 2em;
 }
 
+
 /* Header */
 
 .transparent {
@@ -68,13 +74,13 @@ h1 {
   transition: all 0.2s ease-in;
   background: black;
 }
-/* Portfolio */
 
+
+/* Portfolio */
 
 .thumbnail {
   cursor: pointer;
   position: relative;
-
 }
 
 .thumbnail-overlay {
@@ -83,20 +89,32 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: $secondary-color;
+  background: #000;
   opacity: 0;
   transition: all 0.2s ease-in;
 }
 
 .thumbnail:hover .thumbnail-overlay {
-  opacity: 1;
+  opacity: 0.5;
   transition: all 0.2s ease-in;
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 5px;
+  line-height: 1.72222;
+  background-color: #ffffff;
+  border: 2px solid #bdc3c7;
+  border-radius: 6px;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out
 }
 
 
 /* Project Pages */
 
-.full-screen {
+#portfolio .jumbotron background-primary text-inverse .container {
   background: #eee;
   height: 100%;
   width: 100%;
@@ -104,7 +122,6 @@ h1 {
   top: 0;
   left: 0;
   display: none;
-/*Avoids leaving portfolio screen stuck up*/
   overflow-y: scroll;
 }
 
@@ -112,14 +129,17 @@ h1 {
   cursor: pointer;
 }
 
+
 /* FOOTER DIV */
+
 #footer {
-  background: #ffffff;
+  background: #4B657D;
   color: #55606A;
   padding-top: 30px;
   padding-bottom: 25px;
   text-align: center;
-  color: gray;
+  color: #fff;
+  text-align: center;
 }
 
 .icon-btn {
@@ -128,6 +148,3 @@ h1 {
   letter-spacing: 30px;
   text-indent: 30px;
 }
-
-
-
