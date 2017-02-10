@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,148 +10,167 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
-
 </head>
+
 <body>
-
-<!-- NavBar -->
-<nav class="navbar navbar-inverse navbar-fixed-top transparent">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-      </button>
-      <a class="navbar-brand" href="#home" target="newwindow">FTan</a>
-    </div> <!-- .navbar-header -->
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="https://drive.google.com/open?id=0B87au7w4VK-OdkRhSi0wUzVtbm8">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div> <!-- .navbar-collapse -->
-  </div> <!-- .container -->
-</nav>
-
-<!-- HOME -->
-<main data-spy="scroll" data-target=".navbar" data-offset="50">
-  <div id="home" class="jumbotron photo-cover text-inverse">
+  <!-- NavBar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top transparent">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <a class="navbar-brand" href="#home" target="newwindow">FTan</a>
+      </div>
+      <!-- .navbar-header -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="image/FTAN-Resume.pdf">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- .navbar-collapse -->
+    </div>
+    <!-- .container -->
+  </nav>
+  <!-- HOME -->
+  <main data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="home" class="jumbotron photo-cover text-inverse">
       <div class="col-md-6 text-center center">
         <h1>Fernand Tan</h1>
         <p>FrontEnd Web Developer</p>
         <a href="#about">
-        <span class="fui-triangle-down large"></span>
+          <span class="fui-triangle-down large"></span>
         </a>
-      </div> <!-- .col-md-6 -->
-    </div> <!-- .jumbotron -->
-
-<!-- ABOUT -->
-  <div id="about" class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center">
-        <h2>About</h2>
-          <hr>
-        <p class="lead">
-          Hi, my name's Fernand - I'm a FrontEnd Web Developer.
-        </p>
-        <p class="lead">
-         I work with CSS, HTML, JavaScript, JQuery, and MEAN stack to create beautiful, functional web pages.
-        </p>
-        <p>
-          As well as making websites, I enjoy travelling, working out, and playing guitar.
-        </p>
-        <img width="120px" src="Image/Me.jpg" alt="Ftan" class="center-block img-responsive img-circle"/>
+      </div>
+      <!-- .col-md-3 -->
+    </div>
+    <!-- .jumbotron -->
+    <!-- ABOUT -->
+    <div id="about" class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>About</h2>
+            <hr>
+            <p class="lead">
+              Hi, my name's Fernand - I'm a FrontEnd Web Developer.
+            </p>
+            <p class="lead">
+              I have worked with CSS, HTML, JavaScript, JQuery, and MEAN stack to create beautiful,
+              functional web pages. Although I am still currently learning and polishing my skills
+              with Javascript, JQuery and backend development, I could honestly say that I am well
+              verse with CSS, HTML and Bootstrap frameworks. I am not
+              perfect at all the different languages I have learned, but what I lack in knowledge
+              and experience I make up with passion and severe determination to learn.
+            </p>
+            <p>
+              During my free time, I enjoy travelling, working out, Netflix and Animes.
+            </p>
+            <img width="120px" src="Image/Me.jpg" alt="Ftan" class="center-block img-responsive img-circle" />
+            <a href="https://www.facebook.com/Ferdyboy31" target="blank" class="icon-btn facebook-icn"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/Ferdyboy81" target="blank" class="icon-btn github-icn"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/fernand-tan-front-end-web-developer-7221b2120?trk=nav_responsive_tab_profile" target="blank" class="icon-btn linkedin-icn"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- #about -->
+      <!-- PORTFOLIO -->
+      <div id="portfolio" class="jumbotron background-primary text-inverse">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center">My Portfolio</h2>
+            <hr>
+            <div class="col-xs-6 col-md-3">
+              <a class="thumbnail" page="legacygames" href="https://ferdyboy81.github.io/Legacy_Project/">
+                <img src="Image/LegacyGames.png" alt="legacygames">
+                <div class="thumbnail-overlay" page="legacygames">
+                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+                </div>
+              </a>
+            </div>
+            <!-- .col-md-3 -->
+            <div class="col-xs-6 col-md-3">
+              <a class="thumbnail" page="movie-stub" href="http://movie-stub.herokuapp.com/#/">
+                <img src="Image/moviestub.png" alt="moviestub" page="moviestub">
+                <div class="thumbnail-overlay" page="moviestub">
+                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+                </div>
+              </a>
+            </div>
+            <!-- .col-md-3 -->
+            <div class="col-xs-6 col-md-3">
+              <a class="thumbnail" page="swatch-picker" href="http://nadopet.herokuapp.com/#">
+                <img src="image/nadopet.png" alt="nadopet">
+                <div class="thumbnail-overlay" page="nadopet">
+                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+                </div>
+              </a>
+            </div>
+            <!-- .col-md-3 -->
+            <div class="col-xs-6 col-md-3">
+              <a class="thumbnail" page="pup-adopt" href="https://pupadopt.herokuapp.com">
+                <img src="image/pup-adopt.png" alt="pup-adopt">
+                <div class="thumbnail-overlay" page="pup-adopt">
+                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+                </div>
+              </a>
+            </div>
+            <!-- .col-md-3 -->
+            <div class="col-xs-6 col-md-3">
+              <a class="thumbnail" page="flicker" href="https://ferdyboy81.github.io/Flicker_1st-Project/">
+                <img src="image/flicker.png" alt="Wikipedia Viewer">
+                <div class="thumbnail-overlay" page="flicker">
+                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- #portfolio -->
+      <!-- CONTACT -->
+      <div id="contact" class="jumbotron">
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2 class="">Get In Touch</h2>
+            <hr>
+            <form action="mailto:ferdyboy81@gmail.com" enctype="text/plain" method="post">
+              <div class="form-group">
+                <label for="InputEmail">Email address</label>
+                <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+              </div>
+              <!-- .form-group -->
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" rows="3"></textarea>
+              </div>
+              <!-- .form-group -->
+              <input type="submit" name="submit" class="btn btn-inverse">
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div id="footer" class="container-fluid">
         <a href="https://www.facebook.com/Ferdyboy31" target="blank" class="icon-btn facebook-icn"><i class="fa fa-facebook"></i></a>
         <a href="https://github.com/Ferdyboy81" target="blank" class="icon-btn github-icn"><i class="fa fa-github"></i></a>
         <a href="https://www.linkedin.com/in/fernand-tan-front-end-web-developer-7221b2120?trk=nav_responsive_tab_profile" target="blank" class="icon-btn linkedin-icn"><i class="fa fa-linkedin"></i></a>
-
-      </div> <!-- .row -->
-    </div> <!-- .container -->
-  </div> <!-- #about -->
-
-<!-- PORTFOLIO -->
-  <div id="portfolio" class="jumbotron background-primary text-inverse">
-    <div class="container">
-      <div class="row">
-        <h2 class="text-center">Portfolio</h2>
-        <hr>
-        <div class="col-xs-6 col-md-3">
-          <a class="thumbnail" page="MovieStub" href="http://movie-stub.herokuapp.com/#/">
-              <img src="Image/moviestub.png" alt="MovieStub" page="MovieStub">
-              <div class="thumbnail-overlay" page="moviestub">
-                <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-              </div>
-              <h7>Language/Technologies used: Express | Angular | Node | Javascript | HTML | CSS </h7>
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <a class="thumbnail" page="Flicker" href="https://ferdyboy81.github.io/Flicker_1st-Project/">
-            <img src="Image/Flicker.png" alt="Flicker" page="Flicker">
-            <div class="thumbnail-overlay" page="flicker">
-              <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-            </div>
-            <h7>Language/Technologies used: HTML |  CSS | Javascript | JQuery </h7>
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <a class="thumbnail" page="Pup-Adopt" href="https://pupadopt.herokuapp.com">
-            <img src="Image/PupAdopt.png" alt="Pup-Adopt">
-            <div class="thumbnail-overlay" page="pup-adopt">
-              <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-            </div>
-            <h7>Language/Technologies used: Ruby on Rails | Javascript | HTML | CSS | Bootstrap </h7>
-          </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <a class="thumbnail" page="NADOPET" href="http://nadopet.herokuapp.com/#">
-            <img src="Image/NADOPet.png" alt="NADOPET" >
-            <div class="thumbnail-overlay" page="nadopet">
-              <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-            </div>
-            <h7>Language/Technologies used: CSS| HTML | MongoDB | Express| AngularJS | NodeJS | Javascript  </h7>
-          </a>
-        </div> <!-- .col-md-3 -->
-      </div> <!-- .row -->
-    </div> <!-- .container -->
-  </div> <!-- #portfolio -->
-
-<!-- CONTACT -->
-  <div id="contact" class="jumbotron">
-    <div class="container">
-      <div class="col-md-8 col-md-offset-2 text-center">
-        <h2 class="">Get In Touch</h2>
-        <hr>
-        <form action="mailto:ferdyboy81@gmail.com"  enctype="text/plain" method="post">
-        <div class="form-group">
-          <label for="InputEmail">Email address</label>
-          <input type="email" class="form-control" id="InputEmail" placeholder="Email">
-        </div> <!-- .form-group -->
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" class="form-control" rows="3"></textarea>
-        </div> <!-- .form-group -->
-        <input type="submit" name="submit" class="btn btn-inverse">
-      </form>
+        <br>
+        <br>
+        <h7>©2016 FTan</h7>
       </div>
-    </div>
-  </div>
-
-<!-- footer -->
-  <div id="footer" class="container-fluid">
-    <a href="https://www.facebook.com/Ferdyboy31" target="blank" class="icon-btn facebook-icn"><i class="fa fa-facebook"></i></a>
-    <a href="https://github.com/Ferdyboy81" target="blank" class="icon-btn github-icn"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/fernand-tan-front-end-web-developer-7221b2120?trk=nav_responsive_tab_profile" target="blank" class="icon-btn linkedin-icn"><i class="fa fa-linkedin"></i></a>
-    <br><br>
-    <h7>©2016 FTan</h7>
-  </div>
-
-<!-- JAVASCRIPT -->
-<script type="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/app.js"></script>
-
+      <!-- JAVASCRIPT -->
+      <script type="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/app.js"></script>
 </body>
+
 </html>

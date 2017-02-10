@@ -76,6 +76,10 @@ h1 {
 }
 
 
+.fui-triangle-down {
+  color: #fff;
+}
+
 /* Portfolio */
 
 .thumbnail {
@@ -112,6 +116,12 @@ h1 {
 }
 
 
+
+/*ABOUT*/
+#about .col-md-8 .col-md-offset-2 text-center {
+  margin-bottom: 75px;
+}
+
 /* Project Pages */
 
 #portfolio .jumbotron background-primary text-inverse .container {
@@ -123,6 +133,7 @@ h1 {
   left: 0;
   display: none;
   overflow-y: scroll;
+
 }
 
 .close-window {
