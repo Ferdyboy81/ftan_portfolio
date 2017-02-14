@@ -1,7 +1,4 @@
-$(document).ready(function (){
-
 // Smooth Scrolling for internal links
-
 $('a[href^="#"]').on("click",function (e) {
       e.preventDefault();
 
@@ -16,26 +13,17 @@ $('a[href^="#"]').on("click",function (e) {
   });
 
 // Change background of nav bar on scroll
-$(window).scroll(function() {
-  var scroll = $(window).scrollTop();
-  if (scroll > window.innerHeight - 55) {
-      $(".navbar").removeClass("transparent");
-    } else {
-      $(".navbar").addClass("transparent");
-    }
-});
-
-
+// $(window).scroll(function() {
+//   var scroll = $(window).scrollTop();
+//   if (scroll > window.innerHeight - 55) {
+//       $(".navbar").removeClass("transparent");
+//     } else {
+//       $(".navbar").addClass("transparent");
+//     }
+// });
 
 // Activate scrollspy to highlight nav item when scrolled over
- $('button').click(function(){
- $('h1').stop().animate({ color: 'red' }, 1000);
- });
-
-
-$("#home").addClass('animated bounce');
-
-$("body").scrollspy({target: ".navbar"})
+// $("body").scrollspy({target: ".navbar"})
 
 // Bind events to open and close portfolio popups
 $(".thumbnail-overlay").on("click", openProject.bind( this ))
@@ -56,5 +44,3 @@ function openProject( event ) {
 function closeWindow( event ) {
   $(event.target).parents(".full-screen").fadeOut();
 }
-
-});
