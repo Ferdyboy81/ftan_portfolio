@@ -9,7 +9,13 @@ main {
   text-align: center;
 }
 
-
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 
 /* Name Flicker */
@@ -190,10 +196,11 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   margin-bottom: 0;
 }
 
+
 @media screen and (max-width: 9999999px) {
   .photo-cover {
     background: #34495e url(http://a1.files.theultralinx.com/image/upload/MTI5MDI0MjYwNTI1MTQwNjEx.gif) no-repeat center center / cover fixed;
-    height: 1000px;
+    height: 800px;
     position: relative;
     margin-bottom: 0;
   }
