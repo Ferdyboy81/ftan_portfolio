@@ -21,10 +21,10 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
         </button>
-        <a rel="nofollow" class="navbar-brand" href="#home" target="newwindow">FTan</a>
+        <a class="navbar-brand" href="#home" target="newwindow">FTan</a>
       </div>
       <!-- .navbar-header -->
-      <div class="navbar-collapse collapse" id="navbar" area-expanded="false" style="height: 2px;">
+      <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
@@ -40,10 +40,15 @@
   <main data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="home" class="jumbotron photo-cover text-inverse">
       <div class="col-md-6 text-center center">
+        <img width="120px" src="Image/Me.jpg" alt="Ftan" class="center-block img-responsive img-circle" />
         <h1>Fer<span id="offset">nand</span>Tan</h1>
         <p>FrontEnd Web Developer</p>
         <a href="#about">
-          <span class="fui-triangle-down large"></span>
+          <svg class="arrow">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
         </a>
       </div>
       <!-- .col-md-3 -->
@@ -57,286 +62,329 @@
             <h2>About</h2>
             <hr>
             <p class="lead">
-              Hi, my name's Fernand - I'm a FrontEnd Web Developer.
+              I am an aspiring web developer who loves to create and design beautiful websites. Not only do I have the desire to learn and improve my skills as a web developer, but I am also a team-oriented and hard working individual who would give 110% to bring result to the table.
             </p>
-            <p class="lead">
-              I have worked with CSS, HTML, JavaScript, JQuery, and MEAN stack to create beautiful,
-              functional web pages. Although I am still currently learning and polishing my skills
-              with Javascript, JQuery and backend development, I could honestly say that I am well
-              verse with CSS, HTML and Bootstrap frameworks. I am not
-              perfect at all the different languages I have learned, but what I lack in knowledge
-              and experience I make up with passion and severe determination to learn.
-            </p>
-            <p>
-              During my free time, I enjoy travelling, working out, Netflix and Animes.
-            </p>
-            <img width="120px" src="Image/Me.jpg" alt="Ftan" class="center-block img-responsive img-circle" />
-            <a href="https://www.facebook.com/Ferdyboy31" target="blank" class="icon-btn facebook-icn"><i class="fa fa-facebook"></i></a>
-            <a href="https://github.com/Ferdyboy81" target="blank" class="icon-btn github-icn"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/fernandtan-webdeveloper" target="blank" class="icon-btn linkedin-icn"><i class="fa fa-linkedin"></i></a>
           </div>
           <!-- .row -->
         </div>
         <!-- .container -->
-      </div>
-      <!-- #about -->
-      <!-- PORTFOLIO -->
-      <div id="portfolio" class="jumbotron background-primary text-inverse">
-        <div class="container">
-          <div class="row">
-            <h2 class="text-center">My Portfolio</h2>
-            <hr>
-            <div class="col-xs-6 col-md-3">
-              <a class="thumbnail" page="legacygames">
-                <img src="Image/legacygames.png" alt="legacygames">
-                <div class="thumbnail-overlay" page="legacygames">
-                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-                </div>
-              </a>
-            </div>
-            <!-- .col-md-3 -->
-            <div class="col-xs-6 col-md-3">
-              <a class="thumbnail" page="movie-stub">
-                <img src="Image/moviestub.png" alt="moviestub">
-                <div class="thumbnail-overlay" page="moviestub">
-                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-                </div>
-              </a>
-            </div>
-            <!-- .col-md-3 -->
-            <div class="col-xs-6 col-md-3">
-              <a class="thumbnail" page="nadopet">
-                <img src="Image/NADOPet.png" alt="nadopet">
-                <div class="thumbnail-overlay" page="nadopet">
-                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-                </div>
-              </a>
-            </div>
-            <!-- .col-md-3 -->
-            <div class="col-xs-6 col-md-3">
-              <a class="thumbnail" page="pup-adopt">
-                <img src="Image/pup-adopt.png" alt="pup-adopt">
-                <div class="thumbnail-overlay" page="pup-adopt">
-                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-                </div>
-              </a>
-            </div>
-            <!-- .col-md-3 -->
-            <div class="col-xs-6 col-md-3">
-              <a class="thumbnail" page="flicker">
-                <img src="Image/Flicker.png" alt="flicker">
-                <div class="thumbnail-overlay" page="flicker">
-                  <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
-                </div>
-              </a>
-            </div>
-          </div><!-- .row -->
-        </div><!-- .container -->
-      </div><!-- #portfolio -->
-
-      <!-- CONTACT -->
-      <div id="contact" class="jumbotron">
-        <div class="container">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <h2 class="">Get In Touch</h2>
-            <hr>
-            <form action="mailto:ferdyboy81@gmail.com" enctype="text/plain" method="post">
-              <div class="form-group">
-                <label for="InputEmail">Email address</label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="Email">
-              </div>
-              <!-- .form-group -->
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" class="form-control" rows="3"></textarea>
-              </div>
-              <!-- .form-group -->
-              <input type="submit" name="submit" class="btn btn-inverse">
-            </form>
-          </div>
+        <div class="bean-skills">
+          <ul class="bean-skillset">
+          <p>Skills</p>
+            <li class="skill-bar" style="width:100%; background-color:#2c3e50">
+              <span>HTML</span>
+              <span class="skill-percent">100%</span>
+            </li>
+            <li class="skill-bar" style="width:80%; background-color:#2c3e50">
+              <span>CSS</span>
+              <span class="skill-percent">80%</span>
+            </li>
+            <li class="skill-bar" style="width:40%; background-color:#2c3e50">
+              <span>Javascript</span>
+              <span class="skill-percent">40%</span>
+            </li>
+            <li class="skill-bar" style="width:30%; background-color:#2c3e50">
+              <span>Ruby</span>
+              <span class="skill-percent">30%</span>
+            </li>
+            <li class="skill-bar" style="width:30%; background-color:#2c3e50">
+              <span>Angular</span>
+              <span class="skill-percent">30%</span>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- footer -->
-      <div id="footer" class="container-fluid">
-        <a href="https://www.facebook.com/Ferdyboy31" target="blank" class="icon-btn facebook-icn"><i class="fa fa-facebook"></i></a>
-        <a href="https://github.com/Ferdyboy81" target="blank" class="icon-btn github-icn"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/fernandtan-webdeveloper" target="blank" class="icon-btn linkedin-icn"><i class="fa fa-linkedin"></i></a>
-        <br>
-        <br>
-        <h7><a href="index.html#home">©2016 FTan</a></h7>
+    </div>
+    <!-- #about -->
+    <!-- PORTFOLIO -->
+    <div id="portfolio" class="jumbotron background-primary text-inverse">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center">My Portfolio</h2>
+          <hr>
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" page="legacygames">
+              <img src="Image/legacygames.png" alt="legacygames">
+              <div class="thumbnail-overlay" page="legacygames">
+                <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+              </div>
+            </a>
+          </div>
+          <!-- .col-md-3 -->
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" page="movie-stub">
+              <img src="Image/moviestub.png" alt="moviestub">
+              <div class="thumbnail-overlay" page="moviestub">
+                <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+              </div>
+            </a>
+          </div>
+          <!-- .col-md-3 -->
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" page="nadopet">
+              <img src="Image/NADOPet.png" alt="nadopet">
+              <div class="thumbnail-overlay" page="nadopet">
+                <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+              </div>
+            </a>
+          </div>
+          <!-- .col-md-3 -->
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" page="pup-adopt">
+              <img src="Image/pup-adopt.png" alt="pup-adopt">
+              <div class="thumbnail-overlay" page="pup-adopt">
+                <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+              </div>
+            </a>
+          </div>
+          <!-- .col-md-3 -->
+          <div class="col-xs-6 col-md-3">
+            <a class="thumbnail" page="flicker">
+              <img src="Image/Flicker.png" alt="flicker">
+              <div class="thumbnail-overlay" page="flicker">
+                <span class="glyphicon glyphicon-info-sign text-inverse large center"></span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- .row -->
       </div>
-
-
-
-<!-- Modal view -->
- <div id="legacygames" class="full-screen">
-  <div class="container">
-    <div class="col-md-6 text-center center">
-      <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <a href= href="https://ferdyboy81.github.io/Legacy_Project/"><img src="Image/legacygames-modal.png"></a>
-        </div> <!-- .col-md-4 -->
-      </div> <!-- .row -->
-      <a href="https://github.com/Ferdyboy81/Legacy_Project"><p class="lead">
-        Legacy Game Website Project.
-      </p></a>
-      <p>
-        This is a website I created for a gaming company. I built this website from scratch using HTML5, CSS3 and Javascript.
-      </p>
-      <hr>
-      <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-          <a class="btn-inverse btn-block btn-lg" target="newwindow" href="https://ferdyboy81.github.io/Legacy_Project/">View</a>
-        </div> <!-- .col-md-6 -->
-        <div class="col-md-3">
-          <a class="btn-danger btn-lg close-window btn-block">Close</a>
-        </div> <!-- .col-md-6 -->
-      </div> <!-- .row -->
-    </div> <!-- .col-md-6 -->
-  </div> <!-- .container -->
-</div> <!-- .full-screen -->
-
- <div id="moviestub" class="full-screen">
-  <div class="container">
-    <div class="col-md-6 text-center center">
-      <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <a href="http://movie-stub.herokuapp.com/#/"><img src="Image/moviestub-modal.png"></a>
-        </div> <!-- .col-md-4 -->
-      </div> <!-- .row -->
-      <a href="https://github.com/Ferdyboy81/Project-4-MovieApp"><p class="lead">
-        Movie-Stub
-      </p></a>
-      <p>
-        Movie Stub is a simple web application designed for booking movie tickets.
-        This is a website project I did learning how to use Express.js, Angular and JSON.  This was done from
-        start to finish in a 2 weeks sprint.
-      </p>
-      <p>
-        Language/Technologies used: Express | Angular | Javascript | HTML | CSS
-      </p>
-      <hr>
-      <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-          <a class="btn-inverse btn-block btn-lg" target="newwindow" href="http://movie-stub.herokuapp.com/#/">View</a>
-        </div> <!-- .col-md-6 -->
-        <div class="col-md-3">
-          <a class="btn-danger btn-lg close-window btn-block">Close</a>
-        </div> <!-- .col-md-6 -->
-      </div> <!-- .row -->
-    </div> <!-- .col-md-6 -->
-  </div> <!-- .container -->
-</div> <!-- .full-screen -->
-
- <div id="nadopet" class="full-screen">
-  <div class="container">
-    <div class="col-md-6 text-center center">
-      <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <a href="http://nadopet.herokuapp.com/#"><img src="Image/nadopet-modal.png"></a>
-        </div> <!-- .col-md-4 -->
-      </div> <!-- .row -->
-      <a href="https://github.com/Ferdyboy81/national-humane-society-app"> <p class="lead">
-        NADOPet
-      </p></a>
-      <p>
-        NADOPET is a collaborative effort to create a website database that Humane Societies
-        could use to post their contact information and their adoptable pets.  Users will be
-        able to view available pet shelters nationwide and will see full pet information,
-        location and shelter addresses anywhere in the US.
-      </p>
-      <p>
-        Language/Technologies used:
-        HTML5 | CSS3 | Materialize | Javascript | Mongoose | Node.js |  Express.js, | Ajax-API.
-      </p>
-      <hr>
-      <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-          <a class="btn-inverse btn-block btn-lg" target="newwindow" href="http://nadopet.herokuapp.com/#">View</a>
-        </div> <!-- .col-md-6 -->
-        <div class="col-md-3">
-          <a class="btn-danger btn-lg close-window btn-block">Close</a>
-        </div> <!-- .col-md-6 -->
-      </div> <!-- .row -->
-    </div> <!-- .col-md-6 -->
-  </div> <!-- .container -->
-</div> <!-- .full-screen -->
-
- <div id="pup-adopt" class="full-screen">
-  <div class="container">
-    <div class="col-md-6 text-center center">
-      <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <a href="https://pupadopt.herokuapp.com"><img src="Image/pupadopt-modal.png"></a>
-        </div> <!-- .col-md-4 -->
-      </div> <!-- .row -->
-      <a href="https://github.com/Ferdyboy81/Ruby-on-Rails-DogAdopt"><p class="lead">
-        Pup-Adopt
-      </p></a>
-      <p>
-      Pup-Adopt is a web application I made for Dog lovers.  Its a website where users can
-      register their dogs for adoption and search dogs to adopt.
-      </p>
-      <p>
-      Language/Technologies used:
-      Ruby on Rails | Javascript | HTML | CSS | Bootstrap
-      </p>
-      <hr>
-      <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-          <a class="btn-inverse btn-block btn-lg" target="newwindow" href="https://pupadopt.herokuapp.com">View</a>
-        </div> <!-- .col-md-6 -->
-        <div class="col-md-3">
-          <a class="btn-danger btn-lg close-window btn-block">Close</a>
-        </div> <!-- .col-md-6 -->
-      </div> <!-- .row -->
-    </div> <!-- .col-md-6 -->
-  </div> <!-- .container -->
-</div> <!-- .full-screen -->
- <div id="flicker" class="full-screen">
-  <div class="container">
-    <div class="col-md-6 text-center center">
-      <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <a href="https://ferdyboy81.github.io/Flicker_1st-Project/"><img src="Image/flicker-modal.png"></a>
-        </div> <!-- .col-md-4 -->
-      </div> <!-- .row -->
-      <a href="https://github.com/Ferdyboy81/Flicker_1st-Project"><p class="lead">
-        Flicker
-      </p></a>
-    <p>
-     Flicker is the very first project I worked on mainly focusing on Javascript and JQuery.
-     I designed this simple game for younger users to test and develop their reaction skills.
-     A start game button is added to start the timer and as soon as the count down begins, its
-     up to the user to click off as many lights they see.
-    </p>
-    <p>
-     Language/Technologies used:
-     HTML |  CSS | Javascript | JQuery
-    </p>
-      <hr>
-      <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-          <a class="btn-inverse btn-block btn-lg" target="newwindow" href="https://ferdyboy81.github.io/Flicker_1st-Project/">View</a>
-        </div> <!-- .col-md-6 -->
-        <div class="col-md-3">
-          <a class="btn-danger btn-lg close-window btn-block">Close</a>
-        </div> <!-- .col-md-6 -->
-      </div> <!-- .row -->
-    </div> <!-- .col-md-6 -->
-  </div> <!-- .container -->
-</div> <!-- .full-screen -->
-
-
-      <!-- JAVASCRIPT -->
-      <script type="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="js/app.js"></script>
+      <!-- .container -->
+    </div>
+    <!-- #portfolio -->
+    <!-- CONTACT -->
+    <div id="contact" class="jumbotron">
+      <div class="container">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <h2 class="">Let's Talk!</h2>
+          <hr>
+          <form action="mailto:ferdyboy81@gmail.com" enctype="text/plain" method="post">
+            <div class="form-group">
+              <label for="InputEmail">Email address</label>
+              <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+            </div>
+            <!-- .form-group -->
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" rows="3"></textarea>
+            </div>
+            <!-- .form-group -->
+            <input type="submit" name="submit" class="btn btn-inverse">
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="footer" class="container-fluid">
+      <a href="https://www.facebook.com/Ferdyboy31" target="blank" class="icon-btn facebook-icn"><i class="fa fa-facebook"></i></a>
+      <a href="https://github.com/Ferdyboy81" target="blank" class="icon-btn github-icn"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/fernandtan-webdeveloper" target="blank" class="icon-btn linkedin-icn"><i class="fa fa-linkedin"></i></a>
+      <br>
+      <br>
+      <h7><a href="index.html#home">©2016 Fernand Tan</a></h7>
+    </div>
+    <!-- Modal view -->
+    <div id="legacygames" class="full-screen">
+      <div class="container">
+        <div class="col-md-6 text-center center">
+          <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <a href=h ref="https://ferdyboy81.github.io/Legacy_Project/"><img src="Image/legacygames-modal.png"></a>
+            </div>
+            <!-- .col-md-4 -->
+          </div>
+          <!-- .row -->
+          <a href="https://github.com/Ferdyboy81/Legacy_Project">
+            <p class="lead">
+              Legacy Game Website Project.
+            </p>
+          </a>
+          <p>
+            This is a website I created for a gaming company. I built this website from scratch using HTML5, CSS3 and Javascript.
+          </p>
+          <hr>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+              <a class="btn-inverse btn-block btn-lg" target="newwindow" href="https://ferdyboy81.github.io/Legacy_Project/">View</a>
+            </div>
+            <!-- .col-md-6 -->
+            <div class="col-md-3">
+              <a class="btn-danger btn-lg close-window btn-block">Close</a>
+            </div>
+            <!-- .col-md-6 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .col-md-6 -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .full-screen -->
+    <div id="moviestub" class="full-screen">
+      <div class="container">
+        <div class="col-md-6 text-center center">
+          <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <a href="http://movie-stub.herokuapp.com/#/"><img src="Image/moviestub-modal.png"></a>
+            </div>
+            <!-- .col-md-4 -->
+          </div>
+          <!-- .row -->
+          <a href="https://github.com/Ferdyboy81/Project-4-MovieApp">
+            <p class="lead">
+              Movie-Stub
+            </p>
+          </a>
+          <p>
+            Movie Stub is a simple web application designed for booking movie tickets. This is a website project I did learning how to use Express.js, Angular and JSON. This was done from start to finish in a 2 weeks sprint.
+          </p>
+          <p>
+            Language/Technologies used: Express | Angular | Javascript | HTML | CSS
+          </p>
+          <hr>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+              <a class="btn-inverse btn-block btn-lg" target="newwindow" href="http://movie-stub.herokuapp.com/#/">View</a>
+            </div>
+            <!-- .col-md-6 -->
+            <div class="col-md-3">
+              <a class="btn-danger btn-lg close-window btn-block">Close</a>
+            </div>
+            <!-- .col-md-6 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .col-md-6 -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .full-screen -->
+    <div id="nadopet" class="full-screen">
+      <div class="container">
+        <div class="col-md-6 text-center center">
+          <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <a href="http://nadopet.herokuapp.com/#"><img src="Image/nadopet-modal.png"></a>
+            </div>
+            <!-- .col-md-4 -->
+          </div>
+          <!-- .row -->
+          <a href="https://github.com/Ferdyboy81/national-humane-society-app">
+            <p class="lead">
+              NADOPet
+            </p>
+          </a>
+          <p>
+            NADOPET is a collaborative effort to create a website database that Humane Societies could use to post their contact information and their adoptable pets. Users will be able to view available pet shelters nationwide and will see full pet information, location and shelter addresses anywhere in the US.
+          </p>
+          <p>
+            Language/Technologies used: HTML5 | CSS3 | Materialize | Javascript | Mongoose | Node.js | Express.js, | Ajax-API.
+          </p>
+          <hr>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+              <a class="btn-inverse btn-block btn-lg" target="newwindow" href="http://nadopet.herokuapp.com/#">View</a>
+            </div>
+            <!-- .col-md-6 -->
+            <div class="col-md-3">
+              <a class="btn-danger btn-lg close-window btn-block">Close</a>
+            </div>
+            <!-- .col-md-6 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .col-md-6 -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .full-screen -->
+    <div id="pup-adopt" class="full-screen">
+      <div class="container">
+        <div class="col-md-6 text-center center">
+          <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <a href="https://pupadopt.herokuapp.com"><img src="Image/pupadopt-modal.png"></a>
+            </div>
+            <!-- .col-md-4 -->
+          </div>
+          <!-- .row -->
+          <a href="https://github.com/Ferdyboy81/Ruby-on-Rails-DogAdopt">
+            <p class="lead">
+              Pup-Adopt
+            </p>
+          </a>
+          <p>
+            Pup-Adopt is a web application I made for Dog lovers. Its a website where users can register their dogs for adoption and search dogs to adopt.
+          </p>
+          <p>
+            Language/Technologies used: Ruby on Rails | Javascript | HTML | CSS | Bootstrap
+          </p>
+          <hr>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+              <a class="btn-inverse btn-block btn-lg" target="newwindow" href="https://pupadopt.herokuapp.com">View</a>
+            </div>
+            <!-- .col-md-6 -->
+            <div class="col-md-3">
+              <a class="btn-danger btn-lg close-window btn-block">Close</a>
+            </div>
+            <!-- .col-md-6 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .col-md-6 -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .full-screen -->
+    <div id="flicker" class="full-screen">
+      <div class="container">
+        <div class="col-md-6 text-center center">
+          <span class="glyphicon glyphicon-remove pull-right large close-window"></span>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <a href="https://ferdyboy81.github.io/Flicker_1st-Project/"><img src="Image/flicker-modal.png"></a>
+            </div>
+            <!-- .col-md-4 -->
+          </div>
+          <!-- .row -->
+          <a href="https://github.com/Ferdyboy81/Flicker_1st-Project">
+            <p class="lead">
+              Flicker
+            </p>
+          </a>
+          <p>
+            Flicker is the very first project I worked on mainly focusing on Javascript and JQuery. I designed this simple game for younger users to test and develop their reaction skills. A start game button is added to start the timer and as soon as the count down begins, its up to the user to click off as many lights they see.
+          </p>
+          <p>
+            Language/Technologies used: HTML | CSS | Javascript | JQuery
+          </p>
+          <hr>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+              <a class="btn-inverse btn-block btn-lg" target="newwindow" href="https://ferdyboy81.github.io/Flicker_1st-Project/">View</a>
+            </div>
+            <!-- .col-md-6 -->
+            <div class="col-md-3">
+              <a class="btn-danger btn-lg close-window btn-block">Close</a>
+            </div>
+            <!-- .col-md-6 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .col-md-6 -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .full-screen -->
+    <!-- JAVASCRIPT -->
+    <script type="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>
