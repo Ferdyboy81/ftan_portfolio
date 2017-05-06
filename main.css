@@ -179,7 +179,7 @@ h1 {
 }
 
 .photo-cover {
-  background: #34495e url("Image/island.jpg") no-repeat center center / cover fixed;
+  background: #34495e url("Image/nightsea.jpg") no-repeat center center / cover fixed;
   height: 700px;
   position: relative;
   margin-bottom: 0;
@@ -187,15 +187,15 @@ h1 {
 
 @media screen and (max-width: 9999999px) {
   .photo-cover {
-    background: #34495e url("Image/island.jpg") no-repeat center center / cover fixed;
-    height: 800px;
+    background: #34495e url("Image/nightsea.jpg") no-repeat center center / cover fixed;
+    height: 980px;
     position: relative;
     margin-bottom: 0;
   }
 }
 
 .background-primary {
-  background: #4B657D;
+  background: #000;
 }
 
 .background-secondary {
@@ -209,6 +209,7 @@ h1 {
 .medium {
   font-size: 2em;
 }
+
 
 
 /* Header */
@@ -334,7 +335,7 @@ h1 {
 }
 
 .full-screen {
-  background: #eee;
+  background: #000;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -397,7 +398,7 @@ li.skill-bar {
 /* Project Pages */
 
 #portfolio .jumbotron background-primary text-inverse .container {
-  background: #eee;
+  background: #000;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -415,7 +416,7 @@ li.skill-bar {
 /* FOOTER DIV */
 
 #footer {
-  background: #4B657D;
+  background: #000;
   color: #55606A;
   padding-top: 30px;
   padding-bottom: 25px;

@@ -1,3 +1,5 @@
+$(document).ready(function (){
+
 // Smooth Scrolling for internal links
 $('a[href^="#"]').on("click",function (e) {
       e.preventDefault();
@@ -44,3 +46,4 @@ function openProject( event ) {
 function closeWindow( event ) {
   $(event.target).parents(".full-screen").fadeOut();
 }
+});
