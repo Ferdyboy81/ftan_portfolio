@@ -177,7 +177,7 @@ h1 {
 }
 
 .photo-cover {
-  background: #34495e url("Image/nightsea.jpg") no-repeat center center / cover fixed;
+  background: #34495e url("Image/cover.jpg") no-repeat center center / cover fixed;
   height: 700px;
   position: relative;
   margin-bottom: 0;
@@ -185,7 +185,7 @@ h1 {
 
 @media screen and (max-width: 9999999px) {
   .photo-cover {
-    background: #34495e url("Image/nightsea.jpg") no-repeat center center / cover fixed;
+    background: #34495e url("Image/cover.jpg") no-repeat center center / cover fixed;
     height: 980px;
     position: relative;
     margin-bottom: 0;
@@ -221,6 +221,10 @@ h1 {
   background: black;
 }
 
+a.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+}
 
 /* ARROW DOWN */
 
@@ -240,7 +244,7 @@ h1 {
 /* sets arrow style */
 
 .arrow path {
-  stroke: #fff;
+  stroke: #1abc9c;
   fill: transparent;
   stroke-width: 3px;
   animation: arrow 1s infinite;
@@ -352,7 +356,16 @@ h1 {
 
 #about .col-md-8 .col-md-offset-2 text-center {
   margin-bottom: 75px;
+
 }
+
+/*#about  {
+  background: url("Image/fullme.jpg");
+  background-attachment: fixed;
+  position: relative;
+
+}*/
+
 
 /* Skill level */
 
@@ -370,6 +383,7 @@ h1 {
 ul.bean-skillset {
   float: left;
   width: 100%;
+
 
 }
 
